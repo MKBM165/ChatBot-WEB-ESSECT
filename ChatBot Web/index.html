@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-bot"
+      >
+        <path d="M12 8V4H8" />
+        <rect width="16" height="12" x="4" y="8" rx="2" />
+        <path d="M2 14h2" />
+        <path d="M20 14h2" />
+        <path d="M15 13v2" />
+        <path d="M9 13v2" />
+      </svg>
+      <h1 class="primary-header">Motivation Bot</h1>
+    </header>
+    <main>
+      <div class="chat-box">
+        <div class="text-box">
+          <p class="text-content">Bot : Welcome , I m your Motivational bot</p>
+        </div>
+        <div class="input-box">
+          <input
+            id="msg"
+            class="input-field"
+            type="text"
+            placeholder="Enter your message here "
+          />
+          <button type="submit" class="btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-send-horizontal"
+            >
+              <path
+                d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+              />
+              <path d="M6 12h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
