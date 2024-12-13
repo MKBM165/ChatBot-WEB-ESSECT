@@ -10,7 +10,7 @@ The **Chatbot Project** aims to:
 - Generate inspirational and motivational quotes.
 - Allow easy customization for expanding responses and improving user engagement.
   
-This project was created as a hands-on exercise to apply and refine skills in **Python programming** and **artificial intelligence**.
+This project was created as a hands-on exercise to apply and refine skills in **JavaScript programming** and **artificial intelligence**.
 
 ---
 
@@ -23,7 +23,6 @@ This project was created as a hands-on exercise to apply and refine skills in **
 ---
 
 ## 🛠️ Technologies Used
-- **Python 3.x** for implementing the chatbot logic.
 - **VS Code** for writing and testing the code.
 - **JSON/CSV (Optional):** Data storage for quotes and responses (if needed).
 
@@ -40,4 +39,4 @@ This project was created as a hands-on exercise to apply and refine skills in **
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/chatbot-project.git
+   git clone https://github.com/MKBM165/ChatBot-WEB-ESSECT.git
